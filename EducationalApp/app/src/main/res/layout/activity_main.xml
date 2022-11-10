@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/background"
+    android:id="@+id/main"
+    android:gravity="center">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:id="@+id/game_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:padding="20dp"
+            android:text="@string/math_quiz"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/play_btn"
+            android:layout_width="185dp"
+            android:layout_height="70dp"
+            android:layout_below="@id/game_name"
+            android:layout_centerHorizontal="true"
+            android:text="@string/play"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/setting_btn"
+            android:layout_width="190dp"
+            android:layout_height="70dp"
+            android:layout_below="@id/play_btn"
+            android:layout_centerHorizontal="true"
+            android:text="@string/settings"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/high_btn"
+            android:layout_width="185dp"
+            android:layout_height="70dp"
+            android:layout_below="@id/setting_btn"
+            android:layout_centerHorizontal="true"
+            android:text="@string/scores"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

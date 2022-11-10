@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">EducationalApp</string>
+    <string name="math_quiz">Math Quiz</string>
+    <string name="play">Play</string>
+    <string name="settings">Settings</string>
+    <string name="scores">Scores</string>
+    <string name="_0">0</string>
+    <string name="_0_0_0">0 + 0 = 0</string>
+    <string name="correct">Correct</string>
+    <string name="wrong">Wrong</string>
+    <string name="music">MUSIC :</string>
+    <string name="sfx">SFX :</string>
+    <string name="reset">Reset</string>
+    <string name="back">Back</string>
+    <string name="operators">operators</string>
+    <string name="high_scores">HIGH SCORES</string>
+    <string name="scoreActivity">SCORE</string>
+    <string name="your">YOUR</string>
+    <string name="best">BEST</string>
+    <string name="restart">Restart</string>
+    <string name="share">Share</string>
+    <string name="home">Home</string>
+</resources>
